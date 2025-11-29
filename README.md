@@ -94,20 +94,14 @@ The project includes both the PDF and SQL files, which contain:
 
 The SQL script can be executed on any compatible RDBMS (MySQL, MariaDB, or PostgreSQL). Follow these steps:
 
-1. Create a new database:
-```sql
-CREATE DATABASE library_db;
-USE library_db;
-```
-
-2. Execute the SQL script:
+1. Execute the SQL script:
   - In MySQL / MariaDB:
-  ```
+  ```sql
   SOURCE implementation.sql;
   ```
   - In PostgreSQL:
-  ```
+  ```sql
   \i implementation.sql
   ```
 
-3. After execution, all tables, views, and sample queries will be available.
+2. After execution, all tables, views, and sample queries will be available.
