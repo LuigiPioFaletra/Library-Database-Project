@@ -42,7 +42,7 @@ This phase includes:
 - Natural language requirements  
 - Glossary of domain terms  
 - Requirements refinement  
-- Entity–Relationship (E/R) diagram  
+- Entity-Relationship (E/R) diagram  
 - Data dictionary (entities, attributes, identifiers)  
 - Integrity and derivation rules  
 
@@ -54,7 +54,7 @@ The full E/R diagram is available in the PDF file.
 
 The logical design translates the E/R diagram into a **relational schema**, including:
 
-- Removal of generalization (Reader → specialized categories)  
+- Removal of generalization (Reader -> specialized categories)  
 - Removal of composite attributes  
 - Definitions of tables with primary keys, foreign keys, and integrity constraints  
 
