@@ -8,12 +8,14 @@ The work includes conceptual, logical, and physical design, SQL implementation, 
 
 ## Repository Structure
 
+```
 main_repository/
 │
 ├── description.pdf
 ├── implementation.sql
 ├── LICENSE
 └── README.md
+```
 
 ---
 
@@ -93,13 +95,19 @@ The project includes both the PDF and SQL files, which contain:
 The SQL script can be executed on any compatible RDBMS (MySQL, MariaDB, or PostgreSQL). Follow these steps:
 
 1. Create a new database:
+```sql
 CREATE DATABASE library_db;
 USE library_db;
+```
 
 2. Execute the SQL script:
   - In MySQL / MariaDB:
+  ```
   SOURCE implementation.sql;
+  ```
   - In PostgreSQL:
+  ```
   \i implementation.sql
+  ```
 
 3. After execution, all tables, views, and sample queries will be available.
