@@ -105,3 +105,9 @@ The SQL script can be executed on any compatible RDBMS (MySQL, MariaDB, or Postg
   ```
 
 2. After execution, all tables, views, and sample queries will be available.
+
+---
+
+### License
+
+This project is licensed under the terms of the MIT license. You can find the full license in the `LICENSE` file.
